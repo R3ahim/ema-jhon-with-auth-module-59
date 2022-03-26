@@ -6,7 +6,7 @@ import Answer from './components/Answer/Answer';
 
 function App() {
   return (
-    <div className="">
+    <div className="container">
      <Header></Header>
      <Shop></Shop>
 

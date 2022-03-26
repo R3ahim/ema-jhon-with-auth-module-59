@@ -17,7 +17,9 @@ const Shop = () => {
     // console.log(cart)
     const handleAddToCart = (selectedProduct) => {
      
-        document.getElementById('useId').innerText =''
+        document.getElementById('useId').innerText ='';
+
+
          const find = products.find(product => product.id === selectedProduct);
          console.log(find.length);
 
@@ -45,16 +47,17 @@ const Shop = () => {
     const choseAddToCurt = (productor) => {
        
 
-        const ident = Math.floor(Math.random() * 5);
+        const ident = Math.floor(Math.random() * 9);
         // consol>e.log(products);
         const find = productor.find(product => product.id == ident);
-      const useId = document.getElementById('id');
+      const useId = document.getElementById('useId');
       const div = document.createElement('div')
       div.classList.add('dy-cart')
       useId.innerHTML=`
       <img  style={{width:'25px'}} src="${find.img}" alt=""/>
       <h4>${find.name}</h4>
-      `
+      `;
+      document.getElementById('id').textContent = '';
     //   console.log(find);
     useId.appendChild(div)
        
