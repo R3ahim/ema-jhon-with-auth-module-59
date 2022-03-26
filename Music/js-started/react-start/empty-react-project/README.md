@@ -1,10 +1,8 @@
 # Getting Started with Apna Shop
 
-This project was bootstrapped with [Apna Shop](https://stellular-sundae-cb9e08.netlify.app/).
+This project was bootstrapped with [Apna Shop](https://github.com/Programming-Hero-Web-Course4/lucky-one-juberahmed111).
 
-## Available Products
-
-In the webstie, you can find:
+## https://fastidious-bienenstitch-6caa29.netlify.app/
 
 ### `lenovo app`
 
