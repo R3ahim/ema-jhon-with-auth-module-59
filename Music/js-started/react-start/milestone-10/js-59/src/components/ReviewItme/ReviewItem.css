@@ -1,0 +1,39 @@
+.review-item{
+    border:1px solid #95a0a7;
+    border-radius: 8px ;
+    padding: 8px;
+    margin-top: 21px;
+    width: 571px;
+    display: flex;
+}
+.review-item img{
+    width: 91px;
+}
+.review-item-details p{
+    margin: 0;
+}
+.review-item-details-contianer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.font-btn{
+    border: none;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.font-btn:hover{
+  background-color: bisque;
+  
+}
+
+.font-icon{
+    width: 21px;
+    height: 21px;
+    color: red ;
+}
